@@ -1,6 +1,6 @@
 package com.company;
 
-class Computer {
+class Pc {
     private String brand;
     private String model;
     private int productionYear;
@@ -12,12 +12,12 @@ class Computer {
 
 
 
-    Computer(String brand, String model) {
+    Pc(String brand, String model) {
         this.brand = brand;
         this.model = model;
     }
 
-    Computer(String brand, String model, int priceBgn) {
+    Pc(String brand, String model, int priceBgn) {
         this.brand = brand;
         this.model = model;
         this.priceBgn = priceBgn;

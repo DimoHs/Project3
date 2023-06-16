@@ -2,8 +2,8 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
 
-        Computer computer = new Computer("Acer","Aspire");
-        Computer computer2 = new Computer("Acer","Aspire",1001);
+        Pc computer = new Pc("Acer","Aspire");
+        Pc computer2 = new Pc("Acer","Aspire",1001);
 
         String object1 = computer.getDetails();
         System.out.println(object1);
